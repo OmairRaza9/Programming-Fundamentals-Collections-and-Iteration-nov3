@@ -16,3 +16,15 @@ film[1999] = ["The Matrix", "Star Wars Episode 1", "The Mummy"]
 film[2009] = [ "avatar", "star_trek" "district_9"]
 film[2019] = ["how_to_train_a_dragon" "toy_story" "star_wars_9"]
 p film
+#2
+phone = []
+row_1 = ["1 2 3"]
+row_2 = ["4 5 6"]
+row_3 = ["7 8 9"]
+row_4 = ["* 0 #"]
+
+ phone << row_1
+phone << row_2
+phone << row_3
+phone << row_4
+p phone
