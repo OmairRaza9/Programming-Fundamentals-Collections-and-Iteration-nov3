@@ -12,5 +12,7 @@ cities= {toronto: 2, houston: 1.5, karachi: 3}
 family = {Zohaib: 29, Atef: 27, Saarim: 38, Waq: 19}
 #1
 film = {}
-film << {1999: "The Matrix", "Star Wars Episode 1", "The Mummy"}
+film[1999] = ["The Matrix", "Star Wars Episode 1", "The Mummy"]
+film[2009] = [ "avatar", "star_trek" "district_9"]
+film[2019] = ["how_to_train_a_dragon" "toy_story" "star_wars_9"]
 p film
