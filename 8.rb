@@ -1,6 +1,6 @@
 #1)
 
-def budget(expenses)
+def budget
   sum =0
   expenses = [250, 7.95, 30.95, 16.50]
   expenses.each do |x|
@@ -9,4 +9,4 @@ def budget(expenses)
   p sum
 end
 
-p butget
+p "The total cost was $#{budget}"
