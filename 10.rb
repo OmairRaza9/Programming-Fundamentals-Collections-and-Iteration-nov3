@@ -35,3 +35,13 @@ puts "4)+++++++++++++++++++++++++++++++"
 students.each do |key, value|
 puts "Name: #{key}"
 end
+
+#5
+puts "3)******************************"
+students.each do |key, value|
+puts "The old #{key} size was #{value}. Its grown by 5% and is now #{value * 1.05}"
+end
+#6
+puts "5)+++++++++++++++++++++++++++++++"
+students.delete(2)
+p students
