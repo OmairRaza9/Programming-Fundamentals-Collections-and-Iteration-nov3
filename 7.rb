@@ -35,7 +35,7 @@ end
 #5
 arr = []
 numbers = (1..50)
-5.times.numbers do |x|
+3.times.numbers do |x|
 
 arr  << 3.times do x
 end
