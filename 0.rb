@@ -13,7 +13,10 @@ friends = [zohaib: 29, atef: 27, saarim: 28, waq: 21]
 
 
 NOT SURE HOW TO DO:
-ex 3. 4
-ex 6. 1
-ex 7. 5
-ex 7. 6
+ex 3.  4
+ex 6.  1
+ex 7.  5
+ex 7.  6
+ex 10. 5
+ex 10. 7
+ex 12
