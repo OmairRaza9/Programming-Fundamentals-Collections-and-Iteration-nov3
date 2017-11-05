@@ -4,6 +4,7 @@ students = {
   :cohort3 => 22
 }
 
+
 def display(x)
   x.each do |key, value|
 
@@ -28,6 +29,7 @@ display(students)
 #3
 puts "3)******************************"
 students[:cohort4] = 43
+#students[:cohort4] = 43
 p students
 
 #4
@@ -43,5 +45,13 @@ puts "The old #{key} size was #{value}. Its grown by 5% and is now #{value * 1.0
 end
 #6
 puts "5)+++++++++++++++++++++++++++++++"
-students.delete(2)
-p students
+
+*
+#7
+
+students.each do |x|
+sum = 0
+sum += x
+end
+
+puts  sum
